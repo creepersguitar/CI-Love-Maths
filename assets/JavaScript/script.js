@@ -15,9 +15,15 @@ document.addEventListener("DOMContentLoaded", function() {
         })
     }
 })
-
+/**
+ * Main game loop when script is first loaded
+ * and after answer is processed
+ */
 function runGame() {
 
+    // creates 2 random numbers between 1-25
+    let num1 = Math.floor(Math.random * 25) + 1;
+    let num2 = Math.floor(Math.random * 25) + 1;
 }
 function checkAnswer() {
 
